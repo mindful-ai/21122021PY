@@ -111,6 +111,6 @@ a2 = extstud('Sunil', 12, '7', ['Criket'])
 
 # ----------------------- front end developer
 
-
+#a = a1
 a = a2
 a.printreport() # polymorphic
