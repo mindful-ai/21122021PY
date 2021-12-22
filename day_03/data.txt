@@ -1,0 +1,4 @@
+Return a new array of bytes. The bytearray class is a mutable sequence of integers in the 
+range 0 <= x < 256. It has most of the usual methods of mutable sequences, described in 
+Mutable Sequence Types, as well as most methods that the bytes type has, 
+see Bytes and Bytearray Operations.
