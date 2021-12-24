@@ -1,0 +1,1 @@
+mypackage @ file:///C:/Users/Purushotham/Desktop/oracle/day_05/session%20%231/virtualenv_ex/myapp
