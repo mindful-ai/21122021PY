@@ -4,12 +4,12 @@ mydb = mysql.connector.connect(
   host="localhost",
   user="root",
   passwd="root",
-  database="mydatabase"
+  database="mydatabase4"
 )
 
 mycursor = mydb.cursor()
 
-sql = "DELETE FROM customers2 WHERE address = 'Mountain 21'"
+sql = "DELETE FROM customers WHERE address = 'Mountain 21'"
 
 mycursor.execute(sql)
 

@@ -5,7 +5,7 @@ mydb = mysql.connector.connect(
   host="localhost",
   user="root",
   passwd="root",
-  database="mydatabase"
+  database="mydatabase4"
 )
 
 
@@ -13,7 +13,7 @@ mycursor = mydb.cursor()
 
 
 
-mycursor.execute("CREATE TABLE customers2 (name VARCHAR(255), address VARCHAR(255))")
+mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")
 
 
 query = "SHOW TABLES"
@@ -25,7 +25,7 @@ for x in mycursor:
 ################################
 
 
-sql = "INSERT INTO customers2 (name, address) VALUES (%s, %s)"
+sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
 val = ("John", "Highway 21")
 mycursor.execute(sql, val)
 
@@ -37,7 +37,7 @@ print(mycursor.rowcount, "record inserted.")
 
 #mycursor = mydb.cursor()
 
-sql = "INSERT INTO customers2 (name, address) VALUES (%s, %s)"
+sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
 val = [
   ('Peter', 'Lowstreet 4'),
   ('Amy', 'Apple st 652'),

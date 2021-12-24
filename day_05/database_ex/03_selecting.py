@@ -4,7 +4,7 @@ mydb = mysql.connector.connect(
   host="localhost",
   user="root",
   passwd="root",
-  database="mydatabase"
+  database="mydatabase4"
 )
 '''
 mycursor = mydb.cursor()
@@ -22,7 +22,7 @@ print("\n\n")
 
 mycursor = mydb.cursor()
 
-sql = "SELECT * FROM customers2 ORDER BY name"
+sql = "SELECT * FROM customers ORDER BY name"
 
 mycursor.execute(sql)
 

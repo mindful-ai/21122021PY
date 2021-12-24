@@ -6,7 +6,7 @@ M = [[1, 2, 4], [1, 3, 5], [6, 7, 8]]
 
 f = shelve.open("mydata.shelf")
 
-f[D[name]] = D
+f['name'] = D
 f['colorlist'] = L
 f['matrix'] = M
 

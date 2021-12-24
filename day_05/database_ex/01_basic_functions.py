@@ -10,7 +10,7 @@ mycursor = mydb.cursor()
 
 
 print('Database creation')
-mycursor.execute("CREATE DATABASE mydatabase4")
+mycursor.execute("CREATE DATABASE mydatabase5")
 
 
 
